@@ -98,20 +98,23 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt update
-        sudo apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev libunwind-dev libxkbcommon-dev libglib2.0-dev libfreetype6-dev libasound2-dev libcurl4-openssl-dev
+        sudo apt install -y \
+          clang cmake ninja-build pkg-config libgtk-3-dev \
+          liblzma-dev libunwind-dev libxkbcommon-dev libglib2.0-dev \
+          libfreetype6-dev libasound2-dev libcurl4-openssl-dev \
+          libgstreamer1.0-dev gstreamer1.0-plugins-base
 
-    - name: Setup Flutter (latest)
+    - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.32.6'
+        flutter-version: '3.24.0'  # or '3.32.6' if you're building with latest SDK
         cache: true
 
     - name: Install dependencies
       run: flutter pub get
 
     - name: Build Linux App
-      run: |
-        flutter build linux --release
+      run: flutter build linux --release
 
     - name: Archive Linux Build
       run: |
