@@ -9,85 +9,77 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fluent_ui: ^4.11.3
-  system_theme: ^3.0.0
-  flutter_acrylic: ^1.1.3
-  go_router: ^15.1.2
-  provider: ^6.1.1
-  url_launcher: ^6.3.0
-  window_manager: ^0.5.0
-  shared_preferences: ^2.2.2
-  chat_gpt_flutter: ^1.0.16
-  tray_manager: ^0.5.0
-  hotkey_manager: ^0.2.3
-  process_run: ^1.1.0
-  shell: ^2.0.0
-  file: ^6.1.4
-  markdown_widget: ^2.3.2+6
-  fluentui_system_icons: ^1.1.246
-  rxdart: ^0.28.0
-  dio: ^5.4.0
-  flutter_highlighter: ^0.1.1
-  file_picker: ^10.1.9
-  cross_file: ^0.3.4+1
-  mime_type: ^1.0.0
-  easy_image_viewer: ^1.4.1
-  path_provider: ^2.1.3
-  protocol_handler: ^0.2.0
-  package_info_plus: ^8.0.0
-  flutter_gpt_tokenizer: ^0.1.1
-  # super_drag_and_drop: ^0.9.1
-  drag_and_drop_windows: ^0.0.3
-  # super_clipboard: ^0.8.17
-  # super_native_extensions: ^0.8.17
-  file_selector: ^1.0.3
-  permission_handler: ^12.0.0+1
-  http: ^1.2.1
-  animated_list_plus: ^0.5.2
-  scroll_to_index: ^3.0.1
-  nanoid2: ^2.0.1
-  widget_and_text_animator: ^1.1.5
-  simple_animations: ^5.0.2
-  flutter_moving_background: ^0.0.5
-  smooth_page_indicator: ^1.2.0+3
-  adaptive_layout: ^0.1.7
-  flutter_local_notifications: ^19.0.0
-  cryptography: ^2.7.0
-  cryptography_flutter: ^2.3.2
-  keypress_simulator: ^0.2.0
-  langchain: ^0.7.5
-  langchain_openai: ^0.7.1
-  langchain_ollama: ^0.3.1
-  html: ^0.15.4
-  # googleapis: ^13.2.0
-  # googleapis_auth: ^1.6.0
-  # google_sign_in: ^6.2.1
-  system_info2: ^4.0.0
-  intl: ^0.20.2
-  entry: ^1.0.0
-  record: ^6.0.0
-  deepgram_speech_to_text: ^3.0.4
-  audioplayers: ^6.1.0
-  launch_at_startup: ^0.3.1
-  shimmer_animation: ^2.2.1
-  # elevenlabs_flutter: ^0.0.1
+  fluent_ui: any
+  system_theme: any
+  flutter_acrylic: any
+  go_router: any
+  provider: any
+  url_launcher: any
+  window_manager: any
+  shared_preferences: any
+  chat_gpt_flutter: any
+  tray_manager: any
+  hotkey_manager: any
+  process_run: any
+  shell: any
+  file: any
+  markdown_widget: any
+  fluentui_system_icons: any
+  rxdart: any
+  dio: any
+  flutter_highlighter: any
+  file_picker: any
+  cross_file: any
+  mime_type: any
+  easy_image_viewer: any
+  path_provider: any
+  protocol_handler: any
+  package_info_plus: any
+  flutter_gpt_tokenizer: any
+  drag_and_drop_windows: any
+  file_selector: any
+  permission_handler: any
+  http: any
+  animated_list_plus: any
+  scroll_to_index: any
+  nanoid2: any
+  widget_and_text_animator: any
+  simple_animations: any
+  flutter_moving_background: any
+  smooth_page_indicator: any
+  adaptive_layout: any
+  flutter_local_notifications: any
+  cryptography: any
+  cryptography_flutter: any
+  keypress_simulator: any
+  langchain: any
+  langchain_openai: any
+  langchain_ollama: any
+  html: any
+  system_info2: any
+  intl: any
+  entry: any
+  record: any
+  deepgram_speech_to_text: any
+  audioplayers: any
+  launch_at_startup: any
+  shimmer_animation: any
+  open_filex: any
+  docx_to_text: any
+  excel: any
+  collection: any
+  windows_notification: any
+  animate_do: any
+  image: any
+  highlight: any
+  pasteboard: any
+  flutter_single_instance: any
+  screen_retriever: any
+  printing: any
+
+  # Keep local path dependency as-is
   elevenlabs_flutter:
     path: forked-plugins/elevenlabs_flutter
-  open_filex: ^4.5.0
-  docx_to_text: ^1.0.1
-  excel: ^4.0.6
-  collection: ^1.18.0
-  windows_notification: ^1.3.0
-  animate_do: ^4.2.0
-  image: ^4.3.0
-  highlight: ^0.7.0
-  pasteboard: ^0.4.0
-  flutter_single_instance: ^1.1.2
-  screen_retriever: ^0.2.0
-  printing: ^5.14.2
-  # llama_library_flutter: ^0.0.3
-  # ggml_library_flutter: ^0.0.10
-  
 
 dev_dependencies:
   flutter_test:
@@ -95,10 +87,116 @@ dev_dependencies:
   flutter_lints: any
 
 dependency_overrides:
-  intl: ^0.20.2
-  uuid: ^4.1.0
+  intl: any
+  uuid: any
 
 flutter:
   assets:
     - assets/
   uses-material-design: true
+  
+
+# name: fluent_gpt
+# description: A crossplatform gpt project created with Flutter.
+# publish_to: "none"
+# version: 1.0.71+1
+
+# environment:
+#   sdk: ">=3.3.4 <4.0.0"
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+#   fluent_ui: ^4.11.3
+#   system_theme: ^3.0.0
+#   flutter_acrylic: ^1.1.3
+#   go_router: ^15.1.2
+#   provider: ^6.1.1
+#   url_launcher: ^6.3.0
+#   window_manager: ^0.5.0
+#   shared_preferences: ^2.2.2
+#   chat_gpt_flutter: ^1.0.16
+#   tray_manager: ^0.5.0
+#   hotkey_manager: ^0.2.3
+#   process_run: ^1.1.0
+#   shell: ^2.0.0
+#   file: ^6.1.4
+#   markdown_widget: ^2.3.2+6
+#   fluentui_system_icons: ^1.1.246
+#   rxdart: ^0.28.0
+#   dio: ^5.4.0
+#   flutter_highlighter: ^0.1.1
+#   file_picker: ^10.1.9
+#   cross_file: ^0.3.4+1
+#   mime_type: ^1.0.0
+#   easy_image_viewer: ^1.4.1
+#   path_provider: ^2.1.3
+#   protocol_handler: ^0.2.0
+#   package_info_plus: ^8.0.0
+#   flutter_gpt_tokenizer: ^0.1.1
+#   # super_drag_and_drop: ^0.9.1
+#   drag_and_drop_windows: ^0.0.3
+#   # super_clipboard: ^0.8.17
+#   # super_native_extensions: ^0.8.17
+#   file_selector: ^1.0.3
+#   permission_handler: ^12.0.0+1
+#   http: ^1.2.1
+#   animated_list_plus: ^0.5.2
+#   scroll_to_index: ^3.0.1
+#   nanoid2: ^2.0.1
+#   widget_and_text_animator: ^1.1.5
+#   simple_animations: ^5.0.2
+#   flutter_moving_background: ^0.0.5
+#   smooth_page_indicator: ^1.2.0+3
+#   adaptive_layout: ^0.1.7
+#   flutter_local_notifications: ^19.0.0
+#   cryptography: ^2.7.0
+#   cryptography_flutter: ^2.3.2
+#   keypress_simulator: ^0.2.0
+#   langchain: ^0.7.5
+#   langchain_openai: ^0.7.1
+#   langchain_ollama: ^0.3.1
+#   html: ^0.15.4
+#   # googleapis: ^13.2.0
+#   # googleapis_auth: ^1.6.0
+#   # google_sign_in: ^6.2.1
+#   system_info2: ^4.0.0
+#   intl: ^0.20.2
+#   entry: ^1.0.0
+#   record: ^6.0.0
+#   deepgram_speech_to_text: ^3.0.4
+#   audioplayers: ^6.1.0
+#   launch_at_startup: ^0.3.1
+#   shimmer_animation: ^2.2.1
+#   # elevenlabs_flutter: ^0.0.1
+#   elevenlabs_flutter:
+#     path: forked-plugins/elevenlabs_flutter
+#   open_filex: ^4.5.0
+#   docx_to_text: ^1.0.1
+#   excel: ^4.0.6
+#   collection: ^1.18.0
+#   windows_notification: ^1.3.0
+#   animate_do: ^4.2.0
+#   image: ^4.3.0
+#   highlight: ^0.7.0
+#   pasteboard: ^0.4.0
+#   flutter_single_instance: ^1.1.2
+#   screen_retriever: ^0.2.0
+#   printing: ^5.14.2
+#   # llama_library_flutter: ^0.0.3
+#   # ggml_library_flutter: ^0.0.10
+  
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+#   flutter_lints: any
+
+# dependency_overrides:
+#   intl: ^0.20.2
+#   uuid: ^4.1.0
+
+# flutter:
+#   assets:
+#     - assets/
+#   uses-material-design: true
